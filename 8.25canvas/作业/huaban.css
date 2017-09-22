@@ -1,0 +1,94 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-08-28 18:57:22
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-08-30 16:12:57
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	/* background: #ccc; */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.left{
+	width: 128px;
+	height: 100%;
+	background: #ffc001;
+	border-right: 2px solid #fff;
+}
+.left ul li{
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin: 10px 9px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+input{
+	width: 45px;
+	height: 45px;
+	margin: 10px 10px;
+	border-radius: 5px;
+}
+.iconfont{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+.iconfont:hover{
+	font-size: 22px;
+}
+.right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 130px;
+	box-sizing: border-box;
+	/* background: #d22; */
+}
+.right ul li,.right ul a{
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin: 10px 9px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+.right-top{
+	width: 100%;
+	height: 128px;
+	background: #ffc001;
+	border-bottom: 2px solid #fff;
+}
+.right-bottom{
+	position: absolute;
+	top: 130px;
+	bottom: 0;
+	/* background: #fff; */
+	left: 0;
+	right: 0;
+}
+.active{
+	background: #ccc;
+}
+.clip{
+	display: none;
+	border: 1px dashed #ccc;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

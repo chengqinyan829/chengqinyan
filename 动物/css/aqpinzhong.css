@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 导航 */
+header{
+	width: 100%;
+	height: 122px;
+	background-color: #fff;
+}
+.wz-left{
+	width: 300px;
+	height: 100%;
+	/* background: pink; */
+	margin-left: 97px;
+	float: left;
+}
+.wz-left1{
+	width: 80px;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	font-size: 32px;
+	line-height: 122px;
+	color: #FFC001;
+}
+.wz-left2{
+	width:250px;
+	height: 100%;
+	/* background: yellowgreen;  */
+	font-size: 32px;
+	line-height: 122px;
+	color: #CCCCCC;
+}
+.dh-right{
+	width: 600px;
+	height: 100%;
+	/* background: orange; */
+	float: right;
+}
+.dh-right ul{
+	float: left;
+	font-size: 22px;
+	line-height: 122px;
+	color: #000;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.dh-right ul a{
+	color: #000;
+}
+.dh-right ul:hover{
+	background: #FFC001;
+}
+.lianxiwm{
+	width: 88px;
+	height: 40px;
+	background: #ffcc01;
+	position: absolute;
+	right: 105px;
+	top: 135px;
+	z-index: 999;
+	line-height: 40px;
+	text-align: center;
+}
+/* .dh-right ul:last-child:hover .lianxiwm{
+	display: block;
+} */
+.lianxiwm a{
+	color: #000;
+}
+.datu{
+	width: 1344px;
+	height: 500px;
+	background: gray;
+}
+.datu img{
+	width: 1344px;
+	height: 500px;
+}
+/* 爱犬品种 */
+.aiquan{
+	width: 1088px;
+	height: 1300px;
+	/* background: gray; */
+	margin: 0 auto;
+}
+.baike-top{
+	width: 325px;
+	height: 115px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-bottom: 78px;
+	margin-top: 100px;
+}
+.logo{
+	width:41px;
+	height: 38px;
+	/* background: green; */
+	margin: 0 auto;
+}
+.logo img{
+	width: 41px;
+	height: 38px;
+}
+.bkzi1{
+	width: 100%;
+	height: 44px;
+	/* background: gold; */
+	font-size: 30px;
+	line-height: 44px;
+	text-align: center;
+	font-weight: bold;
+}
+.bkzi2{
+	width: 100%;
+	height: 32px;
+	/* background: yellow; */
+	font-size: 16px;
+	color: #ccc;
+	line-height: 32px;
+	text-align: center;
+}
+/* 法牛 */
+.faniu{
+	width: 100%;
+	height: 340px;
+	/* background: pink; */
+}
+.faniu-tu{
+	width: 541px;
+	height: 100%;
+	/* background: gold; */
+	float: left;
+}
+.faniu-tu img{
+	opacity: 0.4;
+}
+.faniu-tu img:hover{
+	opacity: 1;
+}
+.faniu-jieshao{
+	width: 547px;
+	height: 100%;
+	/* background: gold; */
+	float: right;
+}
+.faniu-zi{
+	width: 503px;
+	height: 84px;
+	/* background: green; */
+	float: right;
+	margin-top: 25px;
+	border-bottom: 1px solid #ccc;
+}
+.fn-zi{
+	width: 300px;
+	height: 40px;
+	/* background: red; */
+}
+.faniu-zi1{
+	width: 130px;
+	height: 33px;
+	/* background: green; */
+	float: left;
+	font-size: 32px;
+	font-weight: bold;
+}
+.faniu-zi2{
+	width: 129px;
+	height: 33px;
+	/* background: pink; */
+	float: left;
+	font-size: 12px;
+	color: #C6B1A9;
+	line-height: 60px;
+	margin-left: 5px;
+}
+.faniu-zi3{
+	width: 160px;
+	height: 26px;
+	/* background: red; */
+	font-size: 14px;
+	color: #666666;
+	line-height:30px;
+}
+.faniu-zi4{
+	width: 506px;
+	height: 125px;
+	/* background: pink; */
+	font-size: 14px;
+	color: #666666;
+	margin-top: 137px;
+	margin-left: 46px;
+	line-height: 40px;
+}
+/* 法牛 */
+.jinmao-jieshao{
+	width: 540px;
+	height: 100%;
+	/* background: gold; */
+	float: left;
+}
+.jinmao{
+	width: 100%;
+	height: 340px;
+	/* background: pink; */
+}
+.jinmao-tu{
+	width: 541px;
+	height: 100%;
+	background: gray;
+	float: left;
+}
+.jinmao-tu img{
+	opacity: 0.4;
+}
+.jinmao-tu img:hover{
+	opacity: 1;
+}
+/* 萌猫品种 */
+.mengmao{
+	width: 100%;
+	height: 865px;
+	/* background: pink; */
+}
+.mengmao-jieshao{
+	width: 1123px;
+	height: 500px;
+	/* background: gray; */
+	margin: 0 auto;
+}
+.boou{
+	width: 259px;
+	height: 100%;
+	background: yellow;
+	float: left;
+}
+.buou-zi{
+	width: 265px;
+	height: 409px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 91px;
+}
+.buou-zi1{
+	width: 100%;
+	height: 42px;
+	/* background: green; */
+	font-size: 32px;
+	color: #FFC001;
+	line-height: 42px;
+	text-align: center;
+}
+.buou-zi2{
+	width: 244px;
+	height: 274px;
+	/* background: white; */
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+}
+.duanmao{
+	width: 259px;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	margin-left: 70px;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 254px;
+	background: #494949;
+	padding-top: 52px;
+}
+.ft-top{
+	width: 973px;
+	height: 122px;
+	/* background: gold; */
+	margin: 0 auto;
+	border-bottom: 1px solid #3D3D3D;
+}
+.ft-left{
+	width: 260px;
+	height: 100%;
+	/* background: gray; */
+	float: left;
+	margin-right: 100px;
+}
+.ft-lefts{
+	width: 250px;
+	height: 100%;
+	/* background: gray; */
+	float: right;
+}
+.ft-left:last-child{
+	margin-right: 0px;
+}
+.ft-left1{
+	width: 70px;
+	height: 70px;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.ft-left1 img{
+	width: 70px;
+	height: 70px;
+}
+.ft-left2{
+	width: 255px;
+	height: 28px;
+	/* background: gold; */
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+	text-align: center;
+}
+.ft-mid{
+	width: 500px;
+	height: 30px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.ft-mid span{
+	margin-right: 45px;
+	font-size: 16px;
+	color: #EAEAEA;
+	cursor: pointer;
+}
+.ft-mid span:last-child{
+	margin-right: 0px;
+}
+.ft-mid span a{
+	color: #fff;
+}
+.ft-bottom{
+	width: 217px;
+	height: 23px;
+	/* background: pink; */
+	margin: 0 auto;
+	font-size: 14px;
+	color: #eaeaea;
+	text-align: center;
+}

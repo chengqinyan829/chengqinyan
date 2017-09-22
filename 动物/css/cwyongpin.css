@@ -1,0 +1,332 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-08-02 16:50:14
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-09-21 22:36:59
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 导航 */
+header{
+	width: 100%;
+	height: 122px;
+	background-color: #fff;
+}
+.wz-left{
+	width: 300px;
+	height: 100%;
+	/* background: pink; */
+	margin-left: 97px;
+	float: left;
+}
+.wz-left1{
+	width: 80px;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	font-size: 32px;
+	line-height: 122px;
+	color: #FFC001;
+}
+.wz-left2{
+	width:250px;
+	height: 100%;
+	/* background: yellowgreen;  */
+	font-size: 32px;
+	line-height: 122px;
+	color: #CCCCCC;
+}
+.dh-right{
+	width: 600px;
+	height: 100%;
+	/* background: orange; */
+	float: right;
+}
+.dh-right ul{
+	float: left;
+	font-size: 22px;
+	line-height: 122px;
+	color: #000;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.dh-right ul a{
+	color: #000;
+}
+.dh-right ul:hover{
+	background: #FFC001;
+}
+.lianxiwm{
+	width: 88px;
+	height: 40px;
+	background: #ffcc01;
+	position: absolute;
+	right: 105px;
+	top: 135px;
+	z-index: 999;
+	line-height: 40px;
+	text-align: center;
+}
+/* .dh-right ul:last-child:hover .lianxiwm{
+	display: block;
+} */
+.lianxiwm a{
+	color: #000;
+}
+/* banner */
+.tu{
+	width: 100%;
+	height: 500px;
+	background: gray;
+}
+.tu img{
+	width: 1349px;
+	height: 500px;
+}
+/* 宠物主粮 */
+.zhuliang{
+	width: 1096px;
+	height: 1574px;
+	/* background: gray; */
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.baike-top{
+	width: 325px;
+	height: 115px;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo{
+	width:41px;
+	height: 38px;
+	/* background: green; */
+	margin: 0 auto;
+}
+.logo img{
+	width: 41px;
+	height: 38px;
+}
+.bkzi1{
+	width: 100%;
+	height: 44px;
+	/* background: gold; */
+	font-size: 30px;
+	line-height: 44px;
+	text-align: center;
+	font-weight: bold;
+}
+.bkzi2{
+	width: 100%;
+	height: 32px;
+	/* background: yellow; */
+	font-size: 16px;
+	color: #ccc;
+	line-height: 32px;
+	text-align: center;
+}
+.zhuanliang1{
+	width: 574px;
+	height: 629px;
+	/* background: pink; */
+	float: left;
+}
+.zhuanliang1 img:hover{
+	transform: rotateY(180deg);
+	transition: all 3s;
+}
+.zltu1{
+	width: 100%;
+	height: 453px;
+	/* background: orange; */
+}
+.zltu1 img:hover{
+	transform: rotateY(180deg);
+	transition: all 3s;
+}
+.zlzi1{
+	width: 413px;
+	height: 51px;
+	/* background: greenyellow; */
+	margin-top: 20px;
+	border-bottom: 1px solid #666;
+	font-size: 24px;
+	line-height:51px;
+}
+.zlzi2{
+	width: 250px;
+	height: 21px;
+	/* background: white; */
+	margin-top: 14px;
+	font-size: 16px;
+	color: #666;
+}
+.zltu2 img:hover{
+	transform: rotateY(180deg);
+	transition: all 3s;
+}
+.zhuanliang2{
+	width: 500px;
+	height: 509px;
+	/* background: pink; */
+	float: left;
+	margin-top: 310px;
+}
+.zhuanliang3{
+	width: 1067px;
+	height: 454px;
+	/* background: orange; */
+	margin: 0 auto;
+	margin-top: 840px;
+}
+.zltu2{
+	width: 100%;
+	height: 453px;
+	/* background: greenyellow; */
+	float: left;
+}
+.zl3{
+	width: 414px;
+	height: 150px;
+	/* background: greenyellow; */
+	float: right;
+	margin-top: 131px;
+}
+/* 宠物用品 */
+.yongpin{
+	width: 1116px;
+	height: 690px;
+	/* background: gray; */
+	margin: 0 auto;
+}
+.yp-jieshao{
+	width: 1127px;
+	height: 402px;
+	/* background: pink; */
+	margin-top: 107px;
+}
+.tuomaoshua{
+	width: 321px;
+	height: 386px;
+	background: #FFC001;
+	padding-top: 16px;
+	margin-right: 82px;
+	float: left;
+}
+.tuomaoshua1{
+	width: 321px;
+	height: 386px;
+	background: #FFC001;
+	padding-top: 16px;
+	float: right;
+	margin-right: 0px;
+}
+.tms-tu{
+	width: 293px;
+	height: 263px;
+	/* background: #fff; */
+	margin-left: 16px;
+}
+.tms-zi1{
+	width: 190px;
+	height: 28px;
+	/* background: pink; */
+	margin-left: 15px;
+	font-size: 15px;
+	line-height: 28px;
+	color: #fff;
+}
+.tms-zi2{
+	width: 129px;
+	height: 42px;
+	/* background: white; */
+	margin-left: 15px;
+	margin-top: 19px;
+	border: 1px solid #fff;
+	font-size: 16px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 254px;
+	background: #494949;
+	padding-top: 52px;
+}
+.ft-top{
+	width: 973px;
+	height: 122px;
+	/* background: gold; */
+	margin: 0 auto;
+	border-bottom: 1px solid #3D3D3D;
+}
+.ft-left{
+	width: 260px;
+	height: 100%;
+	/* background: gray; */
+	float: left;
+	margin-right: 100px;
+}
+.ft-lefts{
+	width: 250px;
+	height: 100%;
+	/* background: gray; */
+	float: right;
+}
+.ft-left:last-child{
+	margin-right: 0px;
+}
+.ft-left1{
+	width: 70px;
+	height: 70px;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.ft-left1 img{
+	width: 70px;
+	height: 70px;
+}
+.ft-left2{
+	width: 255px;
+	height: 28px;
+	/* background: gold; */
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+	text-align: center;
+}
+.ft-mid{
+	width: 500px;
+	height: 30px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.ft-mid span{
+	margin-right: 45px;
+	font-size: 16px;
+	color: #EAEAEA;
+	cursor: pointer;
+}
+.ft-mid span:last-child{
+	margin-right: 0px;
+}
+.ft-mid span a{
+	color: #fff;
+}
+.ft-bottom{
+	width: 217px;
+	height: 23px;
+	/* background: pink; */
+	margin: 0 auto;
+	font-size: 14px;
+	color: #eaeaea;
+	text-align: center;
+}

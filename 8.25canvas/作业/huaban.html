@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="huaban.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="diaoyong.js"></script>
+	<script src="huaban.js"></script>
+	<title>画板</title>
+</head>
+<body>
+	<div class="left">
+		<ul>
+			<li class="iconfont icon-zhixian line gets"></li>
+			<li class="iconfont icon-xuxian dashed gets"></li>
+			<li class="iconfont icon-tubiao pencil gets"></li>
+			<li class="iconfont icon-duobianxing poly gets"></li>
+			<li class="iconfont icon-yuan circle gets"></li>
+			<li class="iconfont icon-juxing rect gets"></li>
+			<li class="iconfont icon-duojiaoxing jiiaoxing gets"></li>
+			<li class="iconfont icon-eraser eraser gets"></li>
+			<li class="iconfont icon-wenziICON font"></li>
+			<li class="iconfont icon-wujiaoxing revers"></li>
+			<li class="iconfont icon-crop caiqie"></li>					
+		</ul>
+		<ul>
+			<input type="color">
+			<input type="color">
+		</ul>	
+	</div>
+	<div class="right">
+		<div class="right-top">
+			<ul>
+				<li class="iconfont icon-xinjian"></li>			
+				<a href="" class="iconfont icon-baocun save gets"></a>		
+				<li class="iconfont icon-miaobian miao" id='fill'></li>			
+				<li class="iconfont icon-fanhui back gets"></li>			
+				<li class="iconfont icon-tianchong miao" id='stroke'></li>		
+			</ul>
+		</div>
+		<div class="right-bottom">
+			<canvas width="1200" height="500"></canvas>
+		</div>
+		<div class="clip"></div>
+	</div>
+</body>
+</html>

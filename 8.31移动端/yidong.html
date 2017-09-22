@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.0 user-scalable=no">
+	<title>移动端</title>
+	<link rel="stylesheet" href="yidong.css">
+	<script src="rem.js"></script>
+	<script src="yidong.js"></script>
+</head>
+<body>
+	<div class="box">
+		<ul class="imgbox">
+			<li><a href=""><img src="img/gouliang1.png" alt=""></a></li>
+			<li><a href=""><img src="img/gouliang2.png" alt=""></a></li>
+			<li><a href=""><img src="img/gouliang3.png" alt=""></a></li>
+		</ul>
+	</div>
+</body>
+</html>
+<!-- ox/offsetL
+mx/left/img.style.left
+n/img.style.left
+//移动时：原始位置+手指移动的距离（相对于屏幕的距离）
+//手指抬起：移动多于半屏就会出现下一张，不够就回来当前那张，加过渡，手指按下把过渡去掉
+//两边拖过了，思路：一样的在写一套，
+//1、2、3、4、1、2、3、4
+//			  1、2、3、4、1、2、3、4
+//						  1、2、3、4、1、2、3、4
+//左拉判断当前按的第几张，如果到了第一张，整个向左偏 -->

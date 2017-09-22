@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<canvas width="300" height="300"></canvas>
+</body>
+</html>
+<script>
+function poly(bian,r){	
+		let ang = 360 / bian / 180*Math.PI;
+		ctx.beginPath();
+		ctx.moveTo(250,150);
+		for (let i =1;i<bian;i++) {
+			ctx.lineTo(150+r*Math.cos(ang*i),150+r*Math.sin(ang*i));
+		}
+		ctx.fill();	
+	}
+	poly(7,100)
+</script>

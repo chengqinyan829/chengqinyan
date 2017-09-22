@@ -1,0 +1,196 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-08-26 19:53:12
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-09-12 08:57:14
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 导航 */
+header{
+	width: 100%;
+	height: 122px;
+	background-color: #fff;
+}
+.wz-left{
+	width: 300px;
+	height: 100%;
+	/* background: pink; */
+	margin-left: 97px;
+	float: left;
+}
+.wz-left1{
+	width: 80px;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	font-size: 32px;
+	line-height: 122px;
+	color: #FFC001;
+}
+.wz-left2{
+	width:250px;
+	height: 100%;
+	/* background: yellowgreen;  */
+	font-size: 32px;
+	line-height: 122px;
+	color: #CCCCCC;
+}
+.dh-right{
+	width: 600px;
+	height: 100%;
+	/* background: orange; */
+	float: right;
+}
+.dh-right ul{
+	float: left;
+	font-size: 22px;
+	line-height: 122px;
+	color: #000;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.dh-right ul a{
+	color: #000;
+}
+.dh-right ul:hover{
+	background: #FFC001;
+}
+.lianxiwm{
+	width: 88px;
+	height: 40px;
+	background: #ffcc01;
+	position: absolute;
+	right: 105px;
+	top: 135px;
+	z-index: 999;
+	line-height: 40px;
+	text-align: center;
+}
+/* .dh-right ul:last-child:hover .lianxiwm{
+	display: block;
+} */
+.lianxiwm a{
+	color: #000;
+}
+/* banner */
+.datu{
+	width: 100%;
+	height: 500px;
+	background: gray;
+}
+.datu img{
+	width: 1400px;
+	height: 500px;
+}
+/* 详情 */
+.xiangqing{
+	width: 100%;
+	height: 461px;
+	/* background: gray; */
+}
+.xq-ye{
+	width: 1174px;
+	height: 434px;
+	/* background: pink; */
+	margin: 0 auto;
+	padding-top: 27px;
+}
+.xq-timu{
+	width: 100%;
+	height: 31px;
+	/* background: orange; */
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+}
+.xq-content{
+	width: 100%;
+	height: 310px;
+	/* background: gray; */
+	margin-top: 33px;
+	font-size: 14px;
+	color: #666;
+	line-height: 35px;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 254px;
+	background: #494949;
+	padding-top: 52px;
+}
+.ft-top{
+	width: 973px;
+	height: 122px;
+	/* background: gold; */
+	margin: 0 auto;
+	border-bottom: 1px solid #3D3D3D;
+}
+.ft-left{
+	width: 260px;
+	height: 100%;
+	/* background: gray; */
+	float: left;
+	margin-right: 100px;
+}
+.ft-lefts{
+	width: 250px;
+	height: 100%;
+	/* background: gray; */
+	float: right;
+}
+.ft-left:last-child{
+	margin-right: 0px;
+}
+.ft-left1{
+	width: 70px;
+	height: 70px;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.ft-left1 img{
+	width: 70px;
+	height: 70px;
+}
+.ft-left2{
+	width: 255px;
+	height: 28px;
+	/* background: gold; */
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+	text-align: center;
+}
+.ft-mid{
+	width: 500px;
+	height: 30px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.ft-mid span{
+	margin-right: 45px;
+	font-size: 16px;
+	color: #EAEAEA;
+	cursor: pointer;
+}
+.ft-mid span:last-child{
+	margin-right: 0px;
+}
+.ft-mid span a{
+	color: #fff;
+}
+.ft-bottom{
+	width: 217px;
+	height: 23px;
+	/* background: pink; */
+	margin: 0 auto;
+	font-size: 14px;
+	color: #eaeaea;
+	text-align: center;
+}

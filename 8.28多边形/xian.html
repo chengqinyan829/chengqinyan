@@ -1,0 +1,127 @@
+zx<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>线</title>
+</head>
+<style>
+	canvas{
+		border: 3px solid #ffc001;
+	}
+</style>
+<body>
+	<canvas width="1000" height="500"></canvas>
+</body>
+</html>
+<!-- moveto,lineto -->
+<script>
+	// let canvas=document.querySelector('canvas');
+	// let ctx=canvas.getContext("2d");
+	// let data;
+	// let data=[];
+	// canvas.onmousedown=function(e){
+	// 	let ox=e.offsetX,oy=e.offsetY;
+	// 	canvas.onmousemove=function(e){
+	// 		let cx=e.offsetX,cy=e.offsetY;
+	// 		ctx.clearRect(0, 0, canvas.width, canvas.height);
+	// 		if(data.length>0){
+	// 			ctx.putImageData(data[data.length-1],0,0);
+	// 		}
+	// 		ctx.beginPath();
+	// 		ctx.moveTo(ox, oy);
+	// 		ctx.setLineDash([10,10]);
+	// 		ctx.lineTo(cx,cy);
+	// 		ctx.closePath();
+	// 		ctx.stroke();
+	// 	}
+	// 	canvas.onmouseup=function(){
+	// 		// data=ctx.getImageData(0,0,canvas.width,canvas.height);
+	// 		data.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+	// 		canvas.onmousemove=null;
+	// 		canvas.onmouseup=null;
+	// 	}
+	// }
+	// document.onkeydown=function(e){
+	// 	if(e.ctrlKey&&e.keyCode==90){
+	// 		let img=data.pop();
+	// 		ctx.putImageData(img,0,0);
+	// 	}
+	// }
+	// 线
+	let canvas=document.querySelector('canvas');
+	let ctx=canvas.getContext("2d");
+	canvas.onmousedown=function(e){
+		let ox=e.offsetX,oy=e.offsetY;
+			ctx.beginPath();
+			ctx.moveTo(ox, oy);
+		canvas.onmousemove=function(e){
+			let cx=e.offsetX,cy=e.offsetY;			
+			ctx.lineTo(cx,cy);
+			ctx.stroke();
+			ctx.strokeStyle='red';
+		}
+		canvas.onmouseup=function(){
+			canvas.onmousemove=null;
+			canvas.onmouseup=null;
+		}
+	}
+	// 第一种：
+	// let img=ducument.querySelector('img');
+	// img.onload=function(){
+	// 	ctx.drawImage(img, dx, dy[, dw][, dh])
+	// 	ctx.drawImage(img,20,20)	//图片 位置
+	// 	ctx.drawImage(img,20,20,200,100)	//图片 位置 宽高
+	// 	ctx.drawImage(img,20,20,100,100,130,130,30,30)	//图片 位置 宽高 放到130,130位置 以50，50尺寸放置
+	// }
+
+	// 第二种：
+	// let img=new Image(width, height);
+	// img.src='';
+	// img.onload=function(){
+	// 	ctx.drawImage(img,20,20)
+	// }
+	// let img= new Image();
+	// img.src='';
+	// img.onload=function(){
+	// 	ctx.drawImage(img,20,20);
+	// 	let data=ctx.getImageData(20,20,100,100);
+	// 	//获取某一个图片的颜色信息，（位置，尺寸）
+	// 	// console.log(data,data)
+	// 	ctx.putImageData(data,300,300);	
+	// }
+</script>
+<!-- 画板
+属性：线宽，粗细，端点，颜色，边数，角数，橡皮大小，宽高，history，ctx，canvas
+方法：画线，画虚线，铅笔，多边形，圆，矩形，多角形（label自动聚焦）
+	橡皮，裁切，文字
+	新建，保存
+function Palette(canvas,cex){
+	//画板、绘图环境
+	this.canvas=canvas;
+	ctx
+	//历史记录，尺寸
+	history=[]
+	cw,ch
+	//样式
+	lineWidth
+	lineCap
+	fillStyle
+	strokeStyle
+}
+方法
+Palette.prototype={
+	line:function({
+		let that=this;
+		this.canvas.onmousedown=function(){
+			两个
+			清空画布
+			cx下方，that.
+		}
+	})
+}
+重新新建js,上面为画板js
+
+获取线
+获取canvas
+new Polette
+点击线的时候 -->

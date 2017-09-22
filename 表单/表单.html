@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="表单.css">
+    </head>
+    <body>
+    	<!-- 表单标签 -->
+    	<!-- action属性：提交的地址
+    	method：以什么方式提交
+    			get：快速的 不安全
+    			post：安全 
+    	-->
+    	<!-- <form action="a.php" method="post"></form>
+    	<form action="a.php" method="get"></form> -->
+    	用户名：<input type="text" placeholder="请输入用户名" class="tex" name="text"><br>
+    	<!-- 密码框 type="password"-->
+    	密码：<input type="password" placeholder="请输入密码">
+    	<!-- 上传文件 type="file" -->
+		上传文件：<input type="file"><br>
+		请选择你喜欢的音乐：（多选）
+		<input type="checkbox">摇滚乐
+		<input type="checkbox">摇滚乐
+		<input type="checkbox">摇滚乐<br>
+		请选择你居住的城市：(单选)
+		<!-- 单选按钮 type="radio"相同的name-->
+		<input type="radio" name="city">北京
+		<input type="radio" name="city">北京
+		<input type="radio" name="city">北京<br>
+		请选择你的最高学历：
+		<!-- select嵌套opinion size默认值为1 -->
+		<select name="" id="" size="2">
+			<option value="">学士</option>
+			<option value="">硕士</option>
+			<option value="">博士</option>
+		</select>
+		留言板：（文本域）
+		<textarea name="" id="" cols="" rows="5" > </textarea><br>
+		<!-- 提交 -->
+		<input type="submit">
+		<!-- 重置 -->
+		<input type="reset"><br>
+		<!--  -->
+		搜索：<input type="button" value="搜索">
+    </body>
+</html>

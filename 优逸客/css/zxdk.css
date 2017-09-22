@@ -1,0 +1,287 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-07-21 11:24:36
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-07-21 18:24:39
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.logo{
+	width: 2.09rem;
+	height: 0.92rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo1{
+	width: 0.85rem;
+	height: 0.92rem;
+	/* background: greenyellow; */
+	float: left;
+	position: relative;
+}
+.logo2{
+	width: 1.24rem;
+	height: 0.92rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.35rem;
+	color: white;
+	text-align: center;
+	line-height: 0.92rem;
+}
+.logo1 img{
+	width: 0.7rem;
+	height: 0.67rem;
+	display: block;
+	bottom: 0.1rem;
+	position: absolute;
+}
+.chuangkou{
+	width: 100%;
+	height: 2.8rem;
+	background: gray;
+}
+.chuangkou img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* 首页 */
+.shouye{
+	width: 100%;
+	height: 11.55rem;
+	background: #f5f6fa;
+}
+.sytop{
+	width: 100%;
+	height: 0.83rem;
+	background: #f5f6fa;
+	padding-top: 0.24rem;
+}
+.sybottom{
+	width: 100%;
+	height: 15.49rem;
+	background: #f5f6fa;
+}
+.sybottom1{
+	width: 7.02rem;
+	height: 10.39rem;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 0.09rem;
+}
+.top-wz{
+	width: 2.5rem;
+	height: 0.38rem;
+	/* background: pink; */
+	margin-left: 0.24rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.sybottom11{
+	width: 6.67rem;
+	height: 0.43rem;
+	/* background: orange; */
+	position: relative;
+	padding-top: 0.3rem;
+}
+.sybottom12{
+	width: 6.3rem;
+	height: 9.7rem;
+	/* background: gray; */
+	margin-left: 0.37rem;
+	border-top: 0.01rem dashed gray;
+}
+.shugang{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+}
+.gaishu{
+	width: 1.2rem;
+	height: 0.29rem;
+	/* background: white; */
+	font-size: 0.22rem;
+	color: #000;
+	font-weight: bold;
+	margin-left: 0.34rem;
+	position: absolute;
+	bottom: 0.19rem;
+}
+.sybottom12-wz1,.sybottom12-wz2,.sybottom12-wz3{
+	width: 6.3rem;
+	height: 1.93rem;
+	/* background: pink; */
+	float: left;
+}
+.sybottom12-wz4{
+	width: 6.3rem;
+	height: 3.8rem;
+	/* background: white; */
+	float: left;
+}
+.sybottom12-wz1,.sybottom12-wz2,.sybottom12-wz3,.sybottom12-wz4{
+	font-size: 0.22rem;
+	color: gray;
+}
+/* 色块 */
+.sekuai{
+	width: 7.5rem;
+	height: 4.99rem;
+	background: #f5f6fa;
+}
+.huise{
+	width: 7.03rem;
+	height: 3.63rem;
+	background: #474747;
+	margin: 0 auto;
+}
+.sk-bottom{
+	width: 7.03rem;
+	height: 1.29rem;
+	/* background: yellowgreen; */
+	margin: 0 auto;
+}
+.sk-bottom1{
+	width: 6.4rem;
+	height: 0.32rem;
+	/* background: white; */
+	margin-left: 0.43rem;
+	border-bottom: 0.01rem dashed gray;
+}
+.sk-bottom2{
+	width: 6.64rem;
+	height: 0.78rem;
+	/* background: gray; */
+	margin-left: 0.2rem;
+	padding-top: 0.21rem;
+	position: relative;
+}
+.sk-bottom21{
+	width: 6.64rem;
+	height: 0.57rem;
+	/* background: white; */
+	position: absolute;
+}
+.sktu1{
+	width: 1.5rem;
+	height: 0.57rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.24rem;
+	margin-right: 0.08rem;
+	line-height: 0.57rem;
+	text-align: center;
+}
+.sktu1 a{
+	color: #000;
+}
+.sktu2,.sktu3,.sktu4,.sktu5,.sktu6{
+	width: 0.53rem;
+	height: 0.57rem;
+	/* background: pink; */
+	float: left;
+	margin-right: 0.08rem;
+}
+.sktu7,.sktu8{
+	width: 0.53rem;
+	height: 0.57rem;
+	/* background: pink; */
+	float: right;
+	margin-right: 0.08rem;
+}
+.sktu2 img,.sktu3 img,.sktu4 img,.sktu5 img,.sktu6 img,.sktu7 img,.sktu8 img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+/* 尾部 */
+.weibu{
+	width: 100%;
+	height:1.58rem;
+	background: yellow; 
+}
+.wb-top{
+	width: 100%;
+	height: 0.55rem;
+	background: white;
+	padding-top: 0.14rem;
+}
+.wb-bottom{
+	width: 100%;
+	height: 0.78rem;
+	background: #f5f6fa;
+	padding-top: 0.15rem;
+}
+.wb-bottom1{
+	width: 7rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom2{
+	width: 6.3rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom1,.wb-bottom2{
+	font-size: 0.19rem;
+	color: gray;
+}
+.icon{
+	width: 7.3rem;
+	height: 0.64rem;
+	/* background: pink; */
+	margin-left: 0.27rem;
+	position: relative;
+}
+li{
+	/* width: 0.32rem; */
+	height: 0.32rem;
+	/* background: green; */
+	float: left;
+	margin-right: 0.1rem;
+}
+.jiantou img{
+	width: 0.62rem;
+	height: 0.31rem;
+	display: block;
+}
+.xuhao img{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: block;
+}
+.wenzi1{
+	width: 0.4rem;
+	height: 0.21rem;
+	float: left;
+	font-size: 0.14rem;
+	color: #000;
+}
+.wenzi{
+	width: 0.9rem;
+	height: 0.21rem;
+	float: left;
+	font-size: 0.14rem;
+	color: #000;
+}
+.wenzi a{
+	color: #000;
+}
+.wenzi1 a{
+	color: #000;
+}

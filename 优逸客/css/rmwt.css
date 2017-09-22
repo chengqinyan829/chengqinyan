@@ -1,0 +1,232 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-07-22 20:29:38
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-07-22 21:18:43
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.logo{
+	width: 2.09rem;
+	height: 0.92rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo1{
+	width: 0.85rem;
+	height: 0.92rem;
+	/* background: greenyellow; */
+	float: left;
+	position: relative;
+}
+.logo2{
+	width: 1.24rem;
+	height: 0.92rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.35rem;
+	color: white;
+	text-align: center;
+	line-height: 0.92rem;
+}
+.logo1 img{
+	width: 0.7rem;
+	height: 0.67rem;
+	display: block;
+	bottom: 0.1rem;
+	position: absolute;
+}
+.chuangkou{
+	width: 100%;
+	height: 2.8rem;
+	background: gray;
+}
+.chuangkou img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* 首页 */
+.shouye{
+	width: 100%;
+	height: 14.68rem;
+	background: #f5f6fa;
+}
+.sytop{
+	width: 7.5rem;
+	height: 0.56rem;
+	background: #f5f6fa;
+	padding-top: 0.29rem;
+}
+.top-wz{
+	width: 2.5rem;
+	height: 0.38rem;
+	/* background: pink; */
+	margin-left: 0.24rem;
+	font-size: 0.22rem;
+	color: #000;
+	margin-bottom: 0.21rem;
+}
+.sybottom1{
+	width: 7.03rem;
+	height: 13.88rem;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 0.09rem;
+}
+.sybottom2{
+	width: 7.03rem;
+	height: 2.74rem;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 0.09rem;
+}
+.sybottom11{
+	width: 6.67rem;
+	height: 0.43rem;
+	/* background: orange; */
+	position: relative;
+	padding-top: 0.3rem;
+}
+.yuandian{
+	width: 0.21rem;
+	height: 0.21rem;
+	/* background: red; */
+	float: left;
+	position: relative;
+}
+.yuandian img{
+	width: 0.12rem;
+	height: 0.12rem;
+	position: absolute;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+}
+.sybottom12{
+	width: 6.45rem;
+	height: 1.93rem;
+	/* background: gray; */
+	margin-left: 0.37rem;
+	border-bottom: 0.01rem dashed gray;
+	margin-bottom: 0.1rem;
+}
+.sybottom12-1{
+	width: 6.45rem;
+	height: 1.4rem;
+	/* background: yellow; */
+	font-size: 0.22rem;
+	color: gray;
+}
+.sybottom12-2{
+	width: 1.49rem;
+	height: 0.39rem;
+	/* background: green; */
+	margin:0 auto;
+	margin-top: 0.1rem;
+	font-size: 0.22rem;
+	color: orange;
+}
+.shugang{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+}
+.gaishu{
+	width: 7rem;
+	height: 0.29rem;
+	/* background: white; */
+	font-size: 0.22rem;
+	color: #000;
+	font-weight: bold;
+	margin-left: 0.34rem;
+	position: absolute;
+	bottom: 0.19rem;
+}
+/* 尾部 */
+.weibu{
+	width: 100%;
+	height:1.58rem;
+	background: white; 
+}
+.wb-top{
+	width: 100%;
+	height: 0.55rem;
+	background: white;
+	padding-top: 0.14rem;
+}
+.wb-bottom{
+	width: 100%;
+	height: 0.78rem;
+	background: #f5f6fa;
+	padding-top: 0.15rem;
+}
+.wb-bottom1{
+	width: 7rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom2{
+	width: 6.3rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom1,.wb-bottom2{
+	font-size: 0.19rem;
+	color: gray;
+}
+.icon{
+	width: 7.3rem;
+	height: 0.64rem;
+	/* background: pink; */
+	margin-left: 0.27rem;
+	position: relative;
+}
+li{
+	/* width: 0.32rem; */
+	height: 0.32rem;
+	/* background: green; */
+	float: left;
+	margin-right: 0.1rem;
+}
+.jiantou img{
+	width: 0.62rem;
+	height: 0.31rem;
+	display: block;
+}
+.xuhao img{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: block;
+}
+.wenzi1{
+	width: 0.4rem;
+	height: 0.21rem;
+	float: left;
+	font-size: 0.14rem;
+	color: #000;
+}
+.wenzi{
+	width: 0.9rem;
+	height: 0.21rem;
+	float: left;
+	font-size: 0.14rem;
+	color: #000;
+}
+.wenzi a{
+	color: #000;
+}
+.wenzi1 a{
+	color: #000;
+}

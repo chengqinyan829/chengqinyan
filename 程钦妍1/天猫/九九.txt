@@ -1,0 +1,237 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+
+
+<head> 
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+
+<title>js九九乘法表</title> 
+
+
+<style type="text/css"> 
+
+
+table { 
+
+
+    width: 800px; 
+
+
+    height: 300px; 
+
+
+    border-collapse: collapse; 
+
+
+} 
+
+
+table th { 
+
+
+    border: 1px solid #069; 
+
+
+} 
+
+
+body { 
+
+
+    text-align: center; 
+
+
+} 
+
+
+h1 { 
+
+
+    font-family: "微软雅黑", Verdana, sans-serif, "宋体"; 
+
+
+    color: #666; 
+
+
+    font-weight: bold; 
+
+
+    margin-bottom: 30px; 
+
+
+} 
+
+
+</style> 
+
+
+</head> 
+
+
+<body> 
+
+
+<script type="text/javascript"> 
+
+
+    document.write("<table>"); 
+
+
+    var str = "js九九乘法表"; 
+
+
+    document.write("<h1>" + str + "</h1>"); 
+
+
+    for ( var x = 1; x <= 9; x++) { 
+
+
+        document.write("<tr>"); 
+
+
+        for ( var y = 1; y <= x; y++) { 
+
+
+            document.write("<th>" + x + "*" + y + "=" + (x * y) + "</th>"); 
+
+
+        } 
+
+
+        document.write("</tr>"); 
+
+
+    } 
+
+
+    document.write("</table>"); 
+
+
+</script> 
+
+
+</body> 
+
+
+</html> 
+
+
+
+
+
+var a=1;
+while(a<11)
+{
+var b=1;
+document.write("<center>");
+while(b<=a)
+{
+document.write("*");
+b++;
+}
+document.write("<br/>");
+a++;
+document.write("</center>");
+}
+
+
+
+
+
+
+
+<!--演示：打印半个金字塔和完整金字塔和；<html>；<head>；<scriptlanguage="；varn=window.prompt("；document.writeln(n+"；/***********************；for(varj=1;j<=i;j++){；docu
+
+
+
+
+
+
+
+
+<!--演示：打印半个金字塔和完整金字塔和菱形-->
+
+<html>
+
+<head>
+
+<script language="javascript">
+
+var n=window.prompt("请输入n");
+
+document.writeln(n+"<br />");
+
+/*******************************************打印三角形部分**********/ for(var i=1;i<=n;i++){
+
+for(var j=1;j<=i;j++){
+
+document.writeln("*");
+
+}
+
+document.writeln("<br />");
+
+}
+
+for(var i=1;i<=n;i++){
+
+for(var j=1;j<=(n-i);j++){
+
+document.writeln("&nbsp;");
+
+}
+
+for(var k=1;k<=(2*i-1);k++){
+
+document.writeln("*");
+
+}
+
+document.writeln("<br />");
+
+}
+
+/***************************以下 打印一个实心菱形****************************/ var m=(2*n-1);
+
+var temp=(m/2+1); var s=0;
+
+document.writeln(temp+"<br />");
+
+for(var i=1;i<=m;i++){
+
+if(i>temp){s=m-i+1;}
+
+else{s=i;}
+
+for(var j=1;j<=temp-s;j++){
+
+document.writeln("&nbsp;");
+
+}
+
+for(var k=1;k<=2*s-1;k++){
+
+document.writeln("*");
+
+}
+
+document.writeln("<br />");
+
+}
+
+</script>
+
+</head>
+
+
+
+<body>
+
+
+
+</body>
+
+</html>

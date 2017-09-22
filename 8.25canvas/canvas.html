@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas</title>
+</head>
+<style>
+	canvas{
+		border: 1px solid red;
+	}
+</style>
+<body>
+	<canvas width="300" height="300">
+		你的浏览器版本过低
+	</canvas>
+</body>
+</html>
+<script>
+	let canvas=document.querySelector('canvas');
+	// 环境
+	let ctx=canvas.getContext("2d");	//平面
+	const PI=Math.PI;
+	// ctx.fillStyle='blue';	//填充颜色
+	// ctx.strokeStyle='red';	//描边颜色
+	// ctx.fillRect(100, 25, 100, 100);	//填充矩形
+	// ctx.strokeRect(x, y, w, h);
+	// ctx.clearRect(x, y, w, h)
+	
+	// ctx.beginPath();	//开始路径
+	// ctx.moveTo(20, 20);		//开始点（抬一下）
+	// ctx.lineTo(20, 120);	//画线
+	// ctx.lineTo(120,120);
+	// ctx.closePath();	//关闭
+	// ctx.fill();		//填充
+
+	// ctx.beginPath();	//开始路径
+	// ctx.moveTo(40, 20);	
+	// ctx.lineTo(140, 20);	//画线
+	// ctx.lineTo(140,120);
+	// ctx.closePath();	//关闭
+	// ctx.stroke();	
+
+	// ctx.beginPath();
+	// ctx.arc(150, 150, 50, 0, Math.PI, true);
+ 	
+	ctx.beginPath();
+	ctx.arc(150, 150, 100, 0, 2*PI);
+	ctx.moveTo(210, 170)
+	ctx.arc(150,170,60,0,PI);
+	ctx.stroke();
+	ctx.moveTo(130,110)
+	ctx.arc(110, 110, 20, 0, 2*PI);
+	ctx.stroke();
+	ctx.moveTo(210,110)
+	ctx.arc(190, 110, 20, 0, 2*PI);
+	ctx.stroke();
+
+</script>

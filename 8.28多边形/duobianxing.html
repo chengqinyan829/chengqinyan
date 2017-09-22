@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多边形</title>
+</head>
+<style>
+	canvas{
+		border: 3px solid #ffc001;
+	}
+/* 	当鼠标按下的时候，距离事件源的距离
+当鼠标移入的时候，距离事件源的距离
+半径为：Math.sqrt(Math.pow(cx-ox,2)+Math.pow(cy-oy,2));
+</style>
+<body>
+	<canvas width="500" height="500"></canvas>
+</body>
+</html>
+<script>
+	let canvas=document.querySelector('canvas');
+	let ctx=canvas.getContext("2d");
+	canvas.onmousedown=function(e){
+		let ox=e.offsetX,oy=e.offsetY;	
+		canvas.onmousemove=function(e){
+			let cx=e.offsetX,cy=e.offsetY;
+			let r=Math.sqrt(Math.pow(cx-ox,2)+Math.pow(cy-oy,2));
+			poly(ox,oy,8,r);
+		}
+		canvas.onmouseup=function(){
+			canvas.onmousemove=null;
+			canvas.onmouseup=null;
+		}
+	}
+	function poly(x,y,bian,r){	
+		let ang = 360 / bian / 180*Math.PI;
+		ctx.beginPath();
+		ctx.moveTo(x+r,y);
+		for (let i =1;i<bian;i++) {
+			ctx.lineTo(x+r*Math.cos(ang*i),y+r*Math.sin(ang*i));
+		}
+		ctx.fill();	
+	}
+</script>

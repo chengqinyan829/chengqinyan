@@ -1,0 +1,219 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-07-22 09:31:34
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-07-22 11:44:40
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.logo{
+	width: 2.09rem;
+	height: 0.92rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo1{
+	width: 0.85rem;
+	height: 0.92rem;
+	/* background: greenyellow; */
+	float: left;
+	position: relative;
+}
+.logo2{
+	width: 1.24rem;
+	height: 0.92rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.35rem;
+	color: white;
+	text-align: center;
+	line-height: 0.92rem;
+}
+.logo1 img{
+	width: 0.7rem;
+	height: 0.67rem;
+	display: block;
+	bottom: 0.1rem;
+	position: absolute;
+}
+.chuangkou{
+	width: 100%;
+	height: 2.8rem;
+	background: gray;
+}
+.chuangkou img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* 首页 */
+.shouye{
+	width: 100%;
+	height: 10rem;
+	background: #f5f6fa;
+}
+.sytop{
+	width: 7.5rem;
+	height: 0.56rem;
+	background: #f5f6fa;
+	padding-top: 0.29rem;
+}
+.top-wz{
+	width: 2.8rem;
+	height: 0.38rem;
+	/* background: pink; */
+	margin-left: 0.24rem;
+	font-size: 0.22rem;
+	color: #000;
+	margin-bottom: 0.21rem;
+}
+.bottom1{
+	width: 7.01rem;
+	height: 3.78rem;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 0.18rem;
+	padding-top: 0.22rem;
+}
+.bottom2{
+	width: 7.01rem;
+	height: 4.89rem;
+	background: white;
+	margin: 0 auto;
+}
+.gaishu{
+	width: 6.64rem;
+	height: 0.5rem;
+	/* background: pink; */
+	margin-left: 0.19rem;
+	margin-bottom: 0.31rem;
+	padding-top: 0.1rem;
+}
+.gaishu1{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+}
+.gaishu2{
+	width: 6.41rem;
+	height: 0.53rem;
+	/* background: yellowgreen; */
+	float: left;
+	margin-left: 0.19rem;
+	border-bottom: 0.01rem dashed gray;
+	font-size: 0.22rem;
+	color: #000;
+}
+.jieshao{
+	width: 6.41rem;
+	height: 2.82rem;
+	/* background: pink; */
+	margin-left: 0.42rem;
+}
+.jieshao-tu{
+	width: 2.8rem;
+	height: 2.8rem;
+	/* background: yellowgreen; */
+	float: left;
+}
+.jieshao-tu img{
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.js-wz{
+	width: 3.36rem;
+	height: 2.54rem;
+	/* background: white; */
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.25rem;
+}
+.js-wz1,.js-wz2,.js-wz3,.js-wz4,.js-wz5{
+	width: 3.4em;
+	height: 0.43rem;
+	/* background: yellowgreen; */
+}
+.js-wz1{
+	margin-bottom: 0.44rem;
+}
+.js-wz4{
+	width: 2.11rem;
+	height: 0.38rem;
+	/* background: pink; */
+	float: left;
+	margin-left: 1.17rem;
+	font-size: 0.28rem;
+	color: #000;
+}
+.js-wz11,.js-wz21,.js-wz31,.js-wz51{
+	width: 1.22rem;
+	height: 0.43rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.28rem;
+	color: #000;
+	font-weight: bold;
+}
+.js-wz22,.js-wz32,.js-wz52{
+	width: 2.13rem;
+	height: 0.43rem;
+	/* background: red; */
+	float: left;
+	font-size: 0.28rem;
+	color: #000;
+}
+.js-wz12{
+	font-size: 0.2rem;
+	color: #01b5ff;
+}
+.jj-wz{
+	width: 6.67rem;
+	height: 3.98rem;
+	/* background: gray; */
+	margin-left: 0.36rem;
+}
+.jj-wz1,.jj-wz2{
+	width: 6.67rem;
+	height: 1.85rem;
+	/* background: gold; */
+	float: left;
+	font-size: 0.22rem;
+	color: gray;
+}
+.jj-wz1{
+	margin-bottom: 0.3rem;
+}
+/* 尾部 */
+.wb-bottom{
+	width: 100%;
+	height: 0.78rem;
+	background: #f5f6fa;
+	padding-top: 0.15rem;
+}
+.wb-bottom1{
+	width: 7rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom2{
+	width: 6.3rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.wb-bottom1,.wb-bottom2{
+	font-size: 0.19rem;
+	color: gray;
+}

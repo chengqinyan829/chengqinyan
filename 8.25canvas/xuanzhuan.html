@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<canvas width="300" height="300"></canvas>
+</body>
+</html>
+<script>
+	let canvas=document.querySelector('canvas');
+	let ctx=canvas.getContext("2d");
+	const PI=Math.PI;
+	// let t=setInterval(fn,100)
+	// requestAnimationFrame()
+	// cancelAnimationFrame()
+	let t;
+	let n=1;
+	fn()
+	function fn(){
+		n++;
+		if(n==80){
+			// clearInterval(t)
+			cancelAnimationFrame(t)
+		}else{
+			t=requestAnimationFrame(fn);
+		}
+		ctx.clearRect(0, 0, 300, 300);
+		let end = n*(PI*2/100);
+		ctx.lineWidth=10;
+		ctx.lineCap='round';
+		ctx.font='bold 30px sans-serif';
+		ctx.fillText(`${n}%`,150,150);
+		ctx.textAlign='center';
+		ctx.beginPath();
+		ctx.arc(150,150,100,-0.5*PI,end-0.5*PI,false);
+		ctx.stroke();
+	}
+</script>

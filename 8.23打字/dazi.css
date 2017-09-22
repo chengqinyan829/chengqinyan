@@ -1,0 +1,35 @@
+/*
+* @Author: 程钦妍
+* @Date:   2017-08-23 10:00:19
+* @Last Modified by:   程钦妍
+* @Last Modified time: 2017-08-23 21:38:06
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('img/20121103111033_UWcVh.thumb.600_0.jpg')
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background: no-repeat center;
+	font-size: 0px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.score{
+	width: 200px;
+	height: 50px;
+	border: 2px solid #000;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
